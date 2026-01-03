@@ -12,7 +12,24 @@ The objective of this assignment is to demonstrate practical SOC investigation s
 including log analysis, incident detection, and incident response, following
 professional security operations practices.
 
----
+
+## Environment Setup
+•	Platform: VirtualBox (Linux VM)
+•	SIEM Tool: Splunk Enterprise
+•	Dataset: BOTSv3 (botsv3_data_set.tgz)
+•	Browser: Firefox (Splunk Web UI)
+•	Splunk Web Access:
+http://localhost:8000
+
+## Installation & Data Preparation
+1.	Installed Splunk Enterprise on Linux VM
+2.	Enabled Splunk at boot:
+sudo /opt/splunk/bin/splunk enable boot-start
+
+4.	Installed BOTSv3 App
+5.	Uploaded and indexed BOTSv3 dataset
+6.	Verified successful ingestion using:
+eventcount summarize=false index=botsv3
 
 ## SOC Context and Incident Handling
 This investigation is approached from the perspective of a Security Operations Centre (SOC).
