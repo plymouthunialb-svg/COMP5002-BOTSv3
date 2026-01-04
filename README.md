@@ -184,12 +184,20 @@ _____________________________________
 
 ---
 
-## Conclusion (To be completed)
+## Conclusion 
 This investigation successfully demonstrated a structured SOC-style incident analysis using the BOTSv3 dataset and Splunk. The findings reveal a multi-stage attack involving malicious email delivery, macro-enabled malware execution, privilege escalation, account persistence, and network reconnaissance.
 
 By correlating logs across multiple data sources, the investigation highlights the importance of centralised logging, continuous monitoring, and skilled analysis in detecting and responding to cyber threats. The techniques used in this investigation closely mirror real-world SOC operations and reinforce the value of practical security analytics in modern organisations
 
 ## References
-References will be added where appropriate.
+
+Awan, M.D. (2025). SOC Structure (Tier 1, Tier 2, Tier 3 Analysts). [online] Linkedin.com. Available at: https://www.linkedin.com/pulse/soc-structure-tier-1-2-3-analysts-muhammad-dilshad-i9nef.
+Granadillo, G.G., Zarzosa, S.G. and Diaz, R. (2021). Security Information and Event Management (SIEM): Analysis, Trends, and Usage in Critical Infrastructures. Sensors, [online] 21(14), p.4759. doi:https://doi.org/10.3390/s21144759.
+IBM (2021). Security Operations Center. [online] Ibm.com. Available at: https://www.ibm.com/think/topics/security-operations-center.
+Jangampeta, S., Mallreddy, S.R. and Reddy, J. (2021). Anomaly Detection for Data Security in SIEM: Identifying Malicious Activity in Security Logs and User Sessions. International Journal For Innovative Engineering and Management Research, [online] 10(12), pp.295–298. doi:https://doi.org/10.48047/IJIEMR/V10/ISSUE12/39.
+Kidd, C. (2023). SOCs: Security Operation Centers Explained. [online] Splunk-Blogs. Available at: https://www.splunk.com/en_us/blog/learn/soc-security-operation-center.html.
+Paul, D. (2025). TryHackMe Incident Handling with Splunk — Write-Up. [online] Medium. Available at: https://medium.com/@Paulinhx/tryhackme-incident-handling-with-splunk-write-up-4821b89d1eed [Accessed 2 Jan. 2026].
+Sapegin, A., Jaeger, D., Amir Azodi, Gawron, M. and Meinel, C. (2014). Normalisation of Log Messages for Intrusion Detection. [online] 9(3), pp.167–176. Available at: https://www.researchgate.net/publication/265646792_Normalisation_of_Log_Messages_for_Intrusion_Detection.
+Shelke, P. and Frantti, T. (2025). Exploring the Possibilities of Splunk Enterprise Security in Advanced Cyber Threat Detection. International Conference on Cyber Warfare and Security, [online] 20(1), pp.605–613. doi:https://doi.org/10.34190/iccws.20.1.3326.
 
 
